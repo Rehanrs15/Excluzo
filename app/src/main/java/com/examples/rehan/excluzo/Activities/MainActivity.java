@@ -1,15 +1,20 @@
 package com.examples.rehan.excluzo.Activities;
 
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.examples.rehan.excluzo.R;
 
-public class SplashActivity extends BaseActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
-        applyFont(SplashActivity.this,findViewById(R.id.base_layout));
+        setContentView(R.layout.activity_main);
+
     }
+
+
+
+
 }
