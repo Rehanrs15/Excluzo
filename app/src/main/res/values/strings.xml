@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Excluzo</string>
     <string name="font">fonts/lato_regular.ttf</string>
+    <string name="login">Excluzo Login</string>
+    <string name="no_account">New User? Create One!</string>
+    <string name="wrong">Something went wrong!!</string>
 </resources>
