@@ -42,7 +42,7 @@ public class LoginActivity extends BaseActivity {
             public void onClick(View v) {
                 String email = emailET.getText().toString();
                 String password = passwordET.getText().toString();
-
+                //get the eail and password
                 if(email.equals("") || password.equals("")){
                     Toast.makeText(LoginActivity.this,"Enter Valid Details",Toast.LENGTH_LONG).show();
                 }
