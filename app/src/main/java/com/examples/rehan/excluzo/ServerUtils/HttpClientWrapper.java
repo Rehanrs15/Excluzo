@@ -25,7 +25,7 @@ public class HttpClientWrapper {
 
     public String doPostRequest(String url, String json) throws IOException {
 
-        Log.e(url,"-----");
+        //Log.e(url,"-----");
         MediaType JSON = MediaType.parse("application/json; charset=utf-8");
 
         RequestBody requestBody = RequestBody.create(JSON, json);
@@ -36,7 +36,7 @@ public class HttpClientWrapper {
 
         Response response = client.newCall(request).execute();
         String responseString = response.body().string();
-        Log.e(url,"");
+        Log.e(url,responseString);
         return responseString;
     }
 

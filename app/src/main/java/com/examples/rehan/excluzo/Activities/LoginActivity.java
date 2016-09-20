@@ -40,20 +40,29 @@ public class LoginActivity extends BaseActivity {
 
             @Override
             public void onClick(View v) {
-                String email = emailET.getText().toString();
-                String password = passwordET.getText().toString();
-                //get the eail and password
+                String email = emailET.getText().toString();//this will get the value from the textview
+                String password = passwordET.getText().toString();//this will get the value from the textview
+
+                //validate the entries here
                 if(email.equals("") || password.equals("")){
                     Toast.makeText(LoginActivity.this,"Enter Valid Details",Toast.LENGTH_LONG).show();
                 }
                 else{
-                    loginUser(email,password);
+                    loginUser(email,password);//if all the details are valid
                 }
 
             }
         });
     }
 
+    //create a Thread (Async Task)
+    /*
+    3 methods
+    * 1)onPreExecute() - before server call is made
+    * 2)doInBackground() - at the time of server call
+    * 3)onPostExecute() - after getting the response from the server
+    *
+    * */
     private void loginUser(final  String email,final String password) {
         new AsyncTask<Void, Void, JSONObject>(){
 
