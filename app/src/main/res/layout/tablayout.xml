@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="7dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_home"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/very_small_padding"
+            android:paddingRight="@dimen/very_small_padding"
+            android:paddingTop="@dimen/very_small_padding"
+            android:id="@+id/ec_img"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/electronics"
+            android:layout_gravity="center"
+            android:id="@+id/ec_tv"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_home"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/very_small_padding"
+            android:paddingRight="@dimen/very_small_padding"
+            android:paddingTop="@dimen/very_small_padding"
+            android:id="@+id/fash_img"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fashion"
+            android:layout_gravity="center"
+            android:id="@+id/fash_tv"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_home"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/very_small_padding"
+            android:paddingRight="@dimen/very_small_padding"
+            android:paddingTop="@dimen/very_small_padding"
+            android:id="@+id/offers_img"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/offers"
+            android:layout_gravity="center"
+            android:id="@+id/offers_tv"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_home"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/very_small_padding"
+            android:paddingRight="@dimen/very_small_padding"
+            android:paddingTop="@dimen/very_small_padding"
+            android:id="@+id/food_img"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food"
+            android:layout_gravity="center"
+            android:id="@+id/food_tv"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_home"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/very_small_padding"
+            android:paddingRight="@dimen/very_small_padding"
+            android:paddingTop="@dimen/very_small_padding"
+            android:id="@+id/recharge_img"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recharge"
+            android:layout_gravity="center"
+            android:id="@+id/recharge_tv"/>
+
+    </LinearLayout>
+
+</LinearLayout>

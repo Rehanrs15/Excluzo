@@ -4,4 +4,9 @@
     <string name="login">Excluzo Login</string>
     <string name="no_account">New User? Create One!</string>
     <string name="wrong">Something went wrong!!</string>
+    <string name="electronics">Electronics</string>
+    <string name="offers">Offers</string>
+    <string name="food">Food</string>
+    <string name="fashion">Fashion</string>
+    <string name="recharge">Recharge</string>
 </resources>

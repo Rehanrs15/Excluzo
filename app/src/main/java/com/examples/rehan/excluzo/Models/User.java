@@ -35,14 +35,6 @@ public class User {
         this.username = username;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
     public String getMobile() {
         return mobile;
     }
@@ -51,12 +43,28 @@ public class User {
         this.mobile = mobile;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public String getAddress() {
         return address;
     }
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public int getAge() {
@@ -75,11 +83,34 @@ public class User {
         this.gender = gender;
     }
 
-    public String getPassword() {
-        return password;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof User)) return false;
+
+        User user = (User) o;
+
+        if (age != user.age) return false;
+        if (gender != user.gender) return false;
+        if (!userid.equals(user.userid)) return false;
+        if (!username.equals(user.username)) return false;
+        if (!email.equals(user.email)) return false;
+        if (!mobile.equals(user.mobile)) return false;
+        if (!address.equals(user.address)) return false;
+        return password.equals(user.password);
+
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    @Override
+    public int hashCode() {
+        int result = userid.hashCode();
+        result = 31 * result + username.hashCode();
+        result = 31 * result + email.hashCode();
+        result = 31 * result + mobile.hashCode();
+        result = 31 * result + address.hashCode();
+        result = 31 * result + password.hashCode();
+        result = 31 * result + age;
+        result = 31 * result + gender;
+        return result;
     }
 }

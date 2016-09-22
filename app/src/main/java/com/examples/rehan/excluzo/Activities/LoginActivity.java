@@ -1,5 +1,6 @@
 package com.examples.rehan.excluzo.Activities;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -85,8 +86,10 @@ public class LoginActivity extends BaseActivity {
                 try {
                     if(response != null) {
                         if (response.getString("status").equals("success")) {
-                            User user = new UserParser().parse(response.getJSONObject("result"));
+                            Toast.makeText(LoginActivity.this,"Success",Toast.LENGTH_LONG).show();
+                            User user = new UserParser().parse(response.getJSONObject("user"));
                             loginPreferences.loginUser(user);
+                            startActivity(new Intent(LoginActivity.this,MainActivity.class));
                         }
                         else if(response.getString("status").equals("failed")){
                             Toast.makeText(LoginActivity.this,"Login Failed",Toast.LENGTH_LONG).show();
