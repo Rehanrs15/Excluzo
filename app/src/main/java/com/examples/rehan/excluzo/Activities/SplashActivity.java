@@ -10,6 +10,10 @@ import com.examples.rehan.excluzo.R;
 
 public class SplashActivity extends BaseActivity {
 
+    public static int LOGIN_ACTIVITY_REQ_CODE = 1;
+    public static int REGISTER_ACTIVITY_REQ_CODE = 2;
+    public static int MAIN_ACTIVITY_REQ_CODE = 3;
+
     LoginPreferences loginPreferences;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,12 +32,23 @@ public class SplashActivity extends BaseActivity {
             public void onFinish() {
                     Log.e("Logged in as",String.valueOf(loginPreferences.isLoggedIn()));
                     if(loginPreferences.isLoggedIn()) {
-                        startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                        startActivityForResult((new Intent(SplashActivity.this, MainActivity.class)),MAIN_ACTIVITY_REQ_CODE);
                     }
                     else{
-                        startActivity(new Intent(SplashActivity.this, LoginActivity.class));
+                        startActivityForResult((new Intent(SplashActivity.this, LoginActivity.class)),LOGIN_ACTIVITY_REQ_CODE);
                     }
             }
         }.start();
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == LOGIN_ACTIVITY_REQ_CODE && resultCode == RESULT_OK){
+            finish();
+        }
+        else if (requestCode == MAIN_ACTIVITY_REQ_CODE && resultCode == RESULT_OK){
+            finish();
+        }
     }
 }

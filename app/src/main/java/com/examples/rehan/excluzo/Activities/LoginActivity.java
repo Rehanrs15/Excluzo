@@ -106,4 +106,11 @@ public class LoginActivity extends BaseActivity {
 
         }.execute();
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        setResult(RESULT_OK);
+        finish();
+    }
 }

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:elevation="7dp"
+    android:background="#F5F5F5"
     >
 
     <LinearLayout
@@ -16,7 +17,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_home"
+            android:src="@drawable/ic_electroic"
             android:layout_gravity="center"
             android:paddingLeft="@dimen/very_small_padding"
             android:paddingRight="@dimen/very_small_padding"
@@ -29,7 +30,9 @@
             android:layout_height="wrap_content"
             android:text="@string/electronics"
             android:layout_gravity="center"
-            android:id="@+id/ec_tv"/>
+            android:id="@+id/ec_tv"
+            android:textSize="12dp"
+            android:padding="5dp"/>
 
     </LinearLayout>
 
@@ -42,7 +45,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_home"
+            android:src="@drawable/ic_fachion"
             android:layout_gravity="center"
             android:paddingLeft="@dimen/very_small_padding"
             android:paddingRight="@dimen/very_small_padding"
@@ -55,7 +58,9 @@
             android:layout_height="wrap_content"
             android:text="@string/fashion"
             android:layout_gravity="center"
-            android:id="@+id/fash_tv"/>
+            android:id="@+id/fash_tv"
+            android:textSize="12dp"
+            android:padding="5dp"/>
 
     </LinearLayout>
 
@@ -68,7 +73,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_home"
+            android:src="@drawable/ic_offer"
             android:layout_gravity="center"
             android:paddingLeft="@dimen/very_small_padding"
             android:paddingRight="@dimen/very_small_padding"
@@ -81,7 +86,9 @@
             android:layout_height="wrap_content"
             android:text="@string/offers"
             android:layout_gravity="center"
-            android:id="@+id/offers_tv"/>
+            android:id="@+id/offers_tv"
+            android:textSize="12dp"
+            android:padding="5dp"/>
 
     </LinearLayout>
 
@@ -94,7 +101,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_home"
+            android:src="@drawable/ic_food"
             android:layout_gravity="center"
             android:paddingLeft="@dimen/very_small_padding"
             android:paddingRight="@dimen/very_small_padding"
@@ -107,7 +114,9 @@
             android:layout_height="wrap_content"
             android:text="@string/food"
             android:layout_gravity="center"
-            android:id="@+id/food_tv"/>
+            android:id="@+id/food_tv"
+            android:textSize="12dp"
+            android:padding="5dp"/>
 
     </LinearLayout>
 
@@ -120,7 +129,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_home"
+            android:src="@drawable/ic_rechargeicon"
             android:layout_gravity="center"
             android:paddingLeft="@dimen/very_small_padding"
             android:paddingRight="@dimen/very_small_padding"
@@ -133,7 +142,9 @@
             android:layout_height="wrap_content"
             android:text="@string/recharge"
             android:layout_gravity="center"
-            android:id="@+id/recharge_tv"/>
+            android:id="@+id/recharge_tv"
+            android:textSize="12dp"
+            android:padding="5dp"/>
 
     </LinearLayout>
 

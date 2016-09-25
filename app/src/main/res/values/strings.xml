@@ -6,7 +6,11 @@
     <string name="wrong">Something went wrong!!</string>
     <string name="electronics">Electronics</string>
     <string name="offers">Offers</string>
-    <string name="food">Food</string>
+    <string name="food">Grocery</string>
     <string name="fashion">Fashion</string>
     <string name="recharge">Recharge</string>
+    <string name="Rs">\u20B9</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group android:checkableBehavior="all">
+
+
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/user"
+            />
+
+        <item
+            android:id="@+id/earn"
+            android:title="Wallet"
+            android:icon="@drawable/earn"
+            />
+
+
+        <item
+            android:id="@+id/notifications"
+            android:title="Notifications"
+            android:icon="@drawable/notification"
+            />
+
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:menuCategory="secondary"
+        android:id="@+id/secondary">
+        <item
+            android:title="Help"
+            android:visible="false"
+            android:id="@+id/help"
+            android:icon="@drawable/ic_action_help"
+            />
+
+
+        <item
+            android:title="About Us"
+            android:id="@+id/aboutus"
+            android:icon="@drawable/ic_action_name"
+            >
+        </item>
+    </group>
+
+
+
+
+
+</menu>

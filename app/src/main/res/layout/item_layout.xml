@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroundxml"
+    android:elevation="10dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_image"
+            android:src="@drawable/laptop"
+            android:padding="@dimen/very_small_padding"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_name"
+                android:text="HP-Laptop 15p017tu"
+                android:textSize="@dimen/very_small_text"
+                android:layout_marginTop="@dimen/very_small_margin"
+                android:textColor="@color/black"
+                android:paddingLeft="@dimen/very_small_padding"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sub_categoryname"
+                android:text="HP Laptops"
+                android:layout_marginTop="@dimen/very_small_margin"
+                android:textSize="@dimen/very_small_text"
+                android:textColor="@color/dark_grey"
+                android:paddingLeft="@dimen/very_small_padding"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/very_small_padding"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/actual_item_price"
+                    android:text="Rs.45000"
+                    android:textSize="@dimen/very_small_text"
+                    android:paddingTop="@dimen/very_small_padding"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/scratch_price"
+                    android:text="Rs.50000"
+                    android:layout_toRightOf="@+id/actual_item_price"
+                    android:paddingTop="@dimen/very_small_padding"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/dark_grey"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/discount"
+                    android:text="(20% off)"
+                    android:layout_toRightOf="@+id/scratch_price"
+                    android:paddingTop="@dimen/very_small_padding"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/very_small_padding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.4"
+                android:drawableRight="@mipmap/star"
+                android:gravity="center"
+                android:id="@+id/ratings"
+                android:textColor="@color/black"
+                android:textSize="@dimen/very_small_text"
+                android:drawablePadding="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(24 Ratings)"
+                    android:layout_toRightOf="@+id/ratings"
+                    android:textColor="@color/black"
+                    android:id="@+id/total_ratings"
+                    android:textSize="@dimen/very_small_text"
+                    android:paddingLeft="@dimen/very_small_padding"
+                    />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -7,14 +7,20 @@
     android:elevation="10dp"
     >
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_hamburger"
+        android:id="@+id/hamburger"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:text="Hello Rehan"
         android:textColor="@color/light_grey"
         android:gravity="center"
-        android:padding="@dimen/very_small_padding"
-        android:textSize="17dp"
+        android:padding="@dimen/small_padding"
+        android:textSize="14dp"
         android:id="@+id/title_text"/>
 
 </android.support.v7.widget.Toolbar>

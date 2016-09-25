@@ -1,9 +1,18 @@
 package com.examples.rehan.excluzo.ServerUtils;
 
 import android.content.Context;
+import android.location.LocationListener;
 import android.util.Log;
 
+import com.examples.rehan.excluzo.Models.Product;
+import com.examples.rehan.excluzo.Parsers.ProductParser;
+
+import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by rehan r on 07-09-2016.
@@ -29,5 +38,23 @@ public class ServerRequest {
             e.printStackTrace();
         }
         return jsonObject;
+    }
+
+    public List<Product> loadItem(Context context, String subId){
+        List<Product> products = new ArrayList<>();
+        JSONObject request = new JSONObject();
+        JSONObject responseObject = null;
+        try {
+            request.put("subcategory_id",subId);
+            Log.e("<----REQUEST---->",request.toString());
+            String response = clientWrapper.doPostRequest(Urls.BASE_URL+Urls.ITEM,request.toString());
+            responseObject = new JSONObject(response);
+            if (responseObject.getString("status").equals("success")){
+                products = new ProductParser().parse(responseObject.getJSONArray("product"));
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return products;
     }
 }
