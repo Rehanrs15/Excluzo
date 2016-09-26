@@ -5,7 +5,9 @@ import android.location.LocationListener;
 import android.util.Log;
 
 import com.examples.rehan.excluzo.Models.Product;
+import com.examples.rehan.excluzo.Models.Rating;
 import com.examples.rehan.excluzo.Parsers.ProductParser;
+import com.examples.rehan.excluzo.Parsers.RatingsParser;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -13,6 +15,7 @@ import org.json.JSONObject;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ExecutionException;
 
 /**
  * Created by rehan r on 07-09-2016.
@@ -56,5 +59,24 @@ public class ServerRequest {
             e.printStackTrace();
         }
         return products;
+    }
+
+    public List<Rating> loadRatings(String productid) {
+        List<Rating> ratings = new ArrayList<>();
+        JSONObject requestObjet = new JSONObject();
+        JSONObject responseObject = null;
+        try{
+            requestObjet.put("productid",productid);
+            Log.e("<-----REQUEST----->",requestObjet.toString());
+            String response = clientWrapper.doPostRequest(Urls.BASE_URL+Urls.ITEM,requestObjet.toString());
+            responseObject = new JSONObject(response);
+            if (requestObjet.getString("status").equals("success")){
+                ratings = new RatingsParser().parse(responseObject.getJSONArray("ratings"));
+            }
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        return ratings;
     }
 }

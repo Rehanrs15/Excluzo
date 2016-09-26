@@ -1,9 +1,11 @@
 package com.examples.rehan.excluzo.Models;
 
+import java.io.Serializable;
+
 /**
  * Created by rehan r on 24-09-2016.
  */
-public class Product {
+public class Product implements Serializable{
     String productid,subid,manuid,productname,description,image_url;
     int price,stockCount,discount,numberOfRatings;
     double ratings;

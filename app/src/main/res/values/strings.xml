@@ -9,7 +9,14 @@
     <string name="food">Grocery</string>
     <string name="fashion">Fashion</string>
     <string name="recharge">Recharge</string>
+    <string name="details">Details</string>
+    <string name="specifications">Specifications</string>
+    <string name="ratingsorreviews">Ratings &amp; Review</string>
+    <string name="rate_and_write">Rate And write a Review</string>
+    <string name="cart">Add to Cart</string>
+    <string name="buynow">Buy Now</string>
     <string name="Rs">\u20B9</string>
+    <string name="bullet">\u25CF</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
