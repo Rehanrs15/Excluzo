@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:paddingLeft="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome,"
+                android:textColor="@color/white"
+                android:id="@+id/welcome"
+                android:textSize="@dimen/small_text"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UserName"
+                android:textColor="@color/white"
+                android:id="@+id/headerusername"
+                android:layout_below="@+id/welcome"
+                android:textSize="@dimen/very_small_text"
+                android:layout_marginTop="@dimen/very_small_margin"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123456789"
+                android:textColor="@color/white"
+                android:id="@+id/headermobile"
+                android:layout_below="@+id/headerusername"
+                android:textSize="12sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location,Bangalore India"
+                android:textColor="@color/white"
+                android:id="@+id/headerlocation"
+                android:layout_below="@+id/headermobile"
+                android:textSize="12sp"
+                android:layout_marginTop="@dimen/small_margin"
+                android:drawableRight="@drawable/location_header"
+                android:drawablePadding="@dimen/very_small_padding"
+                android:gravity="center"
+                />
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/header_user"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

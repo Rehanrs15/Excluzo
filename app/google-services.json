@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "671551420178",
+    "project_id": "excluzo-145716"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671551420178:android:25f63866727902ac",
+        "android_client_info": {
+          "package_name": "com.examples.rehan.excluzo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671551420178-0o6609o6eqh02uj7r7hjm3tkmusqebe2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.examples.rehan.excluzo",
+            "certificate_hash": "2595E3279BE1B17FE765C37FEE36820D72B62107"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXI8wxYWCX4mFi0OkygZ7cfWD3unhE-Ng"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-80019984-3"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

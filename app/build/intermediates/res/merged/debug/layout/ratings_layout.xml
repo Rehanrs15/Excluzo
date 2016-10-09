@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_name"
+        android:text="Puma Casual Wear"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/small_text"
+        android:layout_marginTop="@dimen/medium_margin"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/very_small_margin"
+        android:numStars="5"
+        android:backgroundTint="@color/black"
+        android:stepSize="1"
+        android:id="@+id/ratingbar"
+        android:rating="2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate your experience"
+        android:gravity="center"
+        android:textColor="@color/dark_grey"
+        android:textSize="@dimen/very_small_text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="4"
+        android:layout_marginTop="@dimen/small_margin"
+        android:hint="Comment"
+        android:textSize="@dimen/very_small_text"
+        android:textColor="@color/black"
+        android:id="@+id/comment"
+        android:background="@color/light_grey"
+        android:layout_margin="@dimen/small_margin"
+
+        />
+
+</LinearLayout>

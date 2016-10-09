@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.4"
+        android:drawableRight="@mipmap/star"
+        android:drawablePadding="@dimen/very_small_padding"
+        android:id="@+id/ratings"
+        android:layout_margin="@dimen/very_small_margin"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/very_small_margin"
+        android:text="very Nice Book, best for education but quality of book is not good."
+        android:textSize="@dimen/very_small_text"
+        android:textColor="@color/black"
+        android:id="@+id/ratingstext"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User - "
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/very_small_text"
+            android:layout_marginLeft="@dimen/very_small_margin"
+            android:layout_marginTop="@dimen/very_small_margin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/userid"
+            android:text="REHAN123@"
+            android:layout_marginRight="@dimen/very_small_margin"
+            android:layout_marginTop="@dimen/very_small_margin"
+            />
+    </LinearLayout>
+</LinearLayout>

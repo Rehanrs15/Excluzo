@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\xml\\global_tracker.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\generated\\res\\google-services\\debug\\xml\\global_tracker.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\xml\\app_tracker.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\xml\\app_tracker.xml"
+    }
+]

@@ -234,7 +234,7 @@ public class MainActivity extends BaseActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         super.onOptionsItemSelected(item);
         if(item.getItemId() == R.id.cart){
-            //Toast.makeText(MainActivity.this,"CART",Toast.LENGTH_LONG).show();
+            startActivity(new Intent(MainActivity.this,CartActivity.class));
         }
         return true;
     }

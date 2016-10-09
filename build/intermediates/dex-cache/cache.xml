@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\7thSem\2CC\Excluzo\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b8bedab61b3b5238cd9a07d3b04449d7fecdbc3b">
+        <dex dex="D:\7thSem\2CC\Excluzo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.0.0_0809e7859cab6e529ef8d22f11e4edf78acb8ee9\classes.dex" />
+    </item>
+    <item
+        jar="D:\7thSem\2CC\Excluzo\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="D:\7thSem\2CC\Excluzo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.0.0_ea2f797b7a1b4b82fe9dcd3f090e67b4448d2f3c\classes.dex" />
+    </item>
+    <item
+        jar="D:\7thSem\2CC\Excluzo\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="D:\7thSem\2CC\Excluzo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.0.0_e85f31c0dbde1233f26990378d74dfa4f7fcec94\classes.dex" />
+    </item>
+    <item
+        jar="D:\7thSem\2CC\Excluzo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5f2944ddc8340916a714c76b35303d9961034e71">
+        <dex dex="D:\7thSem\2CC\Excluzo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_95df1907a8388cb53a631bce13d417c019b8d20a\classes.dex" />
+    </item>
+    <item
+        jar="D:\7thSem\2CC\Excluzo\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="373cd65725af2781d100ddc193c7d3f14464a774">
+        <dex dex="D:\7thSem\2CC\Excluzo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.0.0_660a9d9b64e3992f70bb5a1b8fd014e579691a79\classes.dex" />
+    </item>
+    <item
+        jar="D:\7thSem\2CC\Excluzo\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="D:\7thSem\2CC\Excluzo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.0.0_d55f211886c164be64eed007289ed905bcbcdbb0\classes.dex" />
+    </item>
+    <item
+        jar="D:\7thSem\2CC\Excluzo\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="D:\7thSem\2CC\Excluzo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.0.0_9e02fc3404255c50ebae571663962cef71cabc01\classes.dex" />
+    </item>
+    <item
+        jar="D:\7thSem\2CC\Excluzo\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="D:\7thSem\2CC\Excluzo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.0.0_db78a413261a96fba306b2175425396a08af87b2\classes.dex" />
+    </item>
+    <item
+        jar="D:\7thSem\2CC\Excluzo\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="D:\7thSem\2CC\Excluzo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.0.0_ddef27a3123863ec53a9bbbaa9e57381819debdc\classes.dex" />
+    </item>
+    <item
+        jar="D:\7thSem\2CC\Excluzo\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="D:\7thSem\2CC\Excluzo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.0.0_5fa0031958e03b4e1708ba9c702ffffe006dfda1\classes.dex" />
+    </item>
+
+</items>

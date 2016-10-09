@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\star.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\mipmap-xhdpi\\star.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\splash_button.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\mipmap-xhdpi\\splash_button.png"
+    }
+]

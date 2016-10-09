@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#37474F"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/base_layout"
+    tools:context="com.examples.rehan.excluzo.Activities.LoginActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="@dimen/medium_text"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/very_large_margin"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/login_down_arow"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/large_margin"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:hint="E-mail"
+            android:textColorHint="@color/dark_grey"
+            android:background="@color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/email"
+            android:drawableLeft="@drawable/arrow"
+            android:drawablePadding="@dimen/small_padding"
+            android:layout_marginTop="@dimen/large_margin"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:layout_marginRight="@dimen/small_margin"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:hint="Password"
+            android:textColorHint="@color/dark_grey"
+            android:background="@color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/password"
+            android:drawableLeft="@drawable/arrow"
+            android:drawablePadding="@dimen/small_padding"
+            android:layout_marginTop="@dimen/small_margin"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:layout_marginRight="@dimen/small_margin"
+            />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginLeft="@dimen/small_margin"
+        android:layout_marginRight="@dimen/small_margin"
+        android:layout_marginTop="@dimen/small_margin"
+        android:background="@drawable/backgroundxml"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:id="@+id/login_button"
+        android:textStyle="bold"
+        android:textSize="@dimen/small_text"
+        />
+
+    <TextView
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_signup_text"
+        android:text="@string/no_account"
+        android:textColor="@color/white"
+        android:textSize="@dimen/very_small_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/very_small_margin" />
+</LinearLayout>
+</ScrollView>

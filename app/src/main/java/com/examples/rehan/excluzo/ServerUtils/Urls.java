@@ -10,4 +10,6 @@ public class Urls {
     public static String USER_LOGIN = "user/userLogin.php";
     public static String USER_SIGNUP ="user/userSignup.php";
     public static String ITEM = "items/Electonics/Electronics.php";
+    public static String GIVE_RATINGS = "rating/rating.php";
+    public static String PLACE_ORDER = "tracking/userorder.php";
 }

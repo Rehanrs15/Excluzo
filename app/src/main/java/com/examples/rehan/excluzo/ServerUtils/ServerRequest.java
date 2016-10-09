@@ -4,10 +4,14 @@ import android.content.Context;
 import android.location.LocationListener;
 import android.util.Log;
 
+import com.examples.rehan.excluzo.Activities.CartActivity;
+import com.examples.rehan.excluzo.Activities.RegisterActivity;
 import com.examples.rehan.excluzo.Models.Product;
 import com.examples.rehan.excluzo.Models.Rating;
+import com.examples.rehan.excluzo.Models.User;
 import com.examples.rehan.excluzo.Parsers.ProductParser;
 import com.examples.rehan.excluzo.Parsers.RatingsParser;
+import com.examples.rehan.excluzo.Preferences.LoginPreferences;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -78,5 +82,52 @@ public class ServerRequest {
             e.printStackTrace();
         }
         return ratings;
+    }
+
+
+
+    public JSONObject giveRatings(Context context, String productid, float ratings, String comments) {
+        LoginPreferences loginPreferences = new LoginPreferences(context);
+        User user = loginPreferences.getUser();
+        JSONObject request = new JSONObject();
+        JSONObject responseJson = null;
+        try {
+            request.put("userid",user.getUserid());
+            request.put("productid",productid);
+            request.put("rating_review",comments);
+            request.put("action",ratings);
+            Log.e("request",request.toString());
+            String response = clientWrapper.doPostRequest(Urls.BASE_URL+Urls.GIVE_RATINGS,request.toString());
+            responseJson = new JSONObject(response);
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        return responseJson;
+    }
+
+    public JSONObject userRegistration(Context context, String username, String password, String email, int age, int gender, String mobilenumber) {
+
+        JSONObject request = new JSONObject();
+        JSONObject responseJson = null;
+        return responseJson;
+    }
+
+    public JSONObject placeOrder(Context context, String items) {
+        LoginPreferences loginPreferences = new LoginPreferences(context);
+        User user = loginPreferences.getUser();
+        JSONObject request = new JSONObject();
+        JSONObject responseJson = null;
+        try {
+            request.put("userid",user.getUserid());
+            request.put("items",items);
+            Log.e("request",request.toString());
+            String response = clientWrapper.doPostRequest(Urls.BASE_URL+Urls.PLACE_ORDER,request.toString());
+            responseJson = new JSONObject(response);
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        return responseJson;
     }
 }

@@ -1,12 +1,12 @@
 package com.examples.rehan.excluzo.Activities;
 
 import android.content.DialogInterface;
-import android.graphics.Color;
 import android.graphics.Paint;
-import android.graphics.PorterDuff;
 import android.os.AsyncTask;
 import android.support.v7.app.AlertDialog;
 import android.os.Bundle;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
@@ -17,12 +17,18 @@ import android.widget.ProgressBar;
 import android.widget.RatingBar;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.examples.rehan.excluzo.Adapters.ProductAdapter;
 import com.examples.rehan.excluzo.Adapters.RatingsAdapter;
 import com.examples.rehan.excluzo.Models.Product;
 import com.examples.rehan.excluzo.Models.Rating;
 import com.examples.rehan.excluzo.R;
 import com.examples.rehan.excluzo.ServerUtils.ServerRequest;
+import com.examples.rehan.excluzo.Utils.DialogUtils;
+import com.examples.rehan.excluzo.database.DatabaseHandler;
+
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,7 +39,7 @@ public class ProductActivity extends BaseActivity {
             productRatingsTV,productNumberOfRatingsTV,productSpec1TV,productSpec2TV,productSpec3TV,
             productSpec4TV,productLayoutRatingsTV,productLayoutReviewsTV
             ,toolbarTV,
-            productRateButtonTV;
+            productRateButtonTV,addToCartTV,buyNowTV;
     ImageView productImageIV;
     RecyclerView recyclerView;
     RatingsAdapter ratingsAdapter;
@@ -43,6 +49,7 @@ public class ProductActivity extends BaseActivity {
     String title = "";
     Product product;
     List<Rating> ratings = new ArrayList<>();
+    DatabaseHandler databaseHandler = new DatabaseHandler(ProductActivity.this);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,9 +78,11 @@ public class ProductActivity extends BaseActivity {
         productImageIV = (ImageView)findViewById(R.id.productimage);
         recyclerView = (RecyclerView)findViewById(R.id.ratings_recycler_view);
         scrollView = (ScrollView)findViewById(R.id.scroll);
+        addToCartTV = (TextView)findViewById(R.id.add_to_cart);
+        buyNowTV = (TextView)findViewById(R.id.buy_now);
         //scrollView.setVisibility(View.GONE);
         //progressBar.setVisibility(View.VISIBLE);
-        //loadRatings();
+        loadRatings();
         init();
 
         productRateButtonTV.setOnClickListener(new View.OnClickListener() {
@@ -110,7 +119,17 @@ public class ProductActivity extends BaseActivity {
 
             }
         });
-        }
+
+        addToCartTV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                databaseHandler.addProduct(product);
+                Toast.makeText(ProductActivity.this,"ADDED",Toast.LENGTH_LONG).show();
+                Toast.makeText(ProductActivity.this,String.valueOf(databaseHandler.getProductCount()),Toast.LENGTH_LONG).show();
+            }
+        });
+
+    }
 
     private void loadRatings() {
         new AsyncTask<Void, Void, List<Rating>>(){
@@ -121,29 +140,54 @@ public class ProductActivity extends BaseActivity {
             }
 
             @Override
-            protected void onPostExecute(List<Rating> aVoid) {
-                super.onPostExecute(aVoid);
+            protected void onPostExecute(List<Rating> ratingsList) {
+                super.onPostExecute(ratingsList);
+                ratings = ratingsList;
+                ratingsAdapter = new RatingsAdapter(ratings,ProductActivity.this);
+                RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(ProductActivity.this.getApplicationContext(),LinearLayoutManager.VERTICAL,false);
+                recyclerView.setLayoutManager(mLayoutManager);
+                recyclerView.setItemAnimator(new DefaultItemAnimator());
+                recyclerView.setAdapter(ratingsAdapter);
+                ratingsAdapter.notifyDataSetChanged();
             }
 
         }.execute();
     }
 
-    private void uploadRatings(float ratings, String comments) {
-        new AsyncTask<Void,Void,Void>(){
+    private void uploadRatings(final float ratings, final String comments) {
+        new AsyncTask<Void, Void, JSONObject>(){
 
+            DialogUtils dialogUtils = new DialogUtils(ProductActivity.this,DialogUtils.Type.PROGRESS_DIALOG);
             @Override
             protected void onPreExecute() {
                 super.onPreExecute();
+                dialogUtils.showProgressDialog("","please wait",false);
             }
 
             @Override
-            protected Void doInBackground(Void... params) {
-                return null;
+            protected JSONObject doInBackground(Void... params) {
+                return new ServerRequest().giveRatings(ProductActivity.this,product.getProductid(),ratings,comments);
             }
 
             @Override
-            protected void onPostExecute(Void aVoid) {
-                super.onPostExecute(aVoid);
+            protected void onPostExecute(JSONObject response) {
+                super.onPostExecute(response);
+                dialogUtils.dismissProgressDialog();
+                if (response != null) {
+                    try {
+                        if (response.getString("status").equals("success")) {
+                            Toast.makeText(ProductActivity.this, "Success", Toast.LENGTH_LONG).show();
+                        }
+                        else {
+                            Toast.makeText(ProductActivity.this, "failed", Toast.LENGTH_LONG).show();
+                        }
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+                else {
+                    Toast.makeText(ProductActivity.this,"Something went wrong",Toast.LENGTH_LONG).show();
+                }
             }
 
         }.execute();

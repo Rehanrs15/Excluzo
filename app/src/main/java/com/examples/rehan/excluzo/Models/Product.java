@@ -25,6 +25,9 @@ public class Product implements Serializable{
         this.ratings = ratings;
     }
 
+    public Product(){
+
+    }
     public String getProductid() {
         return productid;
     }

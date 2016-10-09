@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:elevation="12dp"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Electronics"
+        android:textColor="@color/light_grey"
+        android:gravity="center"
+        android:padding="@dimen/small_padding"
+        android:textSize="16dp"
+        android:id="@+id/categoryname"
+        android:textStyle="bold"/>
+
+</android.support.v7.widget.Toolbar>

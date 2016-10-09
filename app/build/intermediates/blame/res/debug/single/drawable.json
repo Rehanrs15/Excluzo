@@ -1,0 +1,366 @@
+[
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_contact.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_contact.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\offers.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\offers.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\laptop.jpg",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\laptop.jpg"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\heart_off.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.github.jd-alexander\\LikeButton\\0.2.0\\res\\drawable\\heart_off.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_hamburger.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_hamburger.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_share.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_share.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_notification.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_notification.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_search.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_search.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\upgrade.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\upgrade.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_corner_bg.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\drawable\\indicator_corner_bg.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\delete.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\location.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\location.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\wallet.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_user.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_user.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_offer.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_offer.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\step_2.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\step_2.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hamburger.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\hamburger.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_kids.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_kids.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_fachion.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_fachion.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_account.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_action_account.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_rechargeicon.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_rechargeicon.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\location_header.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\location_header.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_setting.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_action_setting.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_edit.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_action_edit.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_female.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_female.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrowa.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\arrowa.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\star_on.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.github.jd-alexander\\LikeButton\\0.2.0\\res\\drawable\\star_on.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_food.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_food.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb_off.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.github.jd-alexander\\LikeButton\\0.2.0\\res\\drawable\\thumb_off.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_order.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_order.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_home.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_home.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\heart_on.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.github.jd-alexander\\LikeButton\\0.2.0\\res\\drawable\\heart_on.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_name.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_action_name.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\backgroundxml.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\backgroundxml.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\earn.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\earn.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shop.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\shop.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_cart.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_cart.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_share.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_action_share.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_search.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_action_search.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user_icon.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\user_icon.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\user.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_electroic.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_electroic.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\header_user.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\header_user.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_help.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_action_help.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\notification.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_electronics.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_electronics.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wish.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\wish.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\arrow.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\star_off.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.github.jd-alexander\\LikeButton\\0.2.0\\res\\drawable\\star_off.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb_on.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.github.jd-alexander\\LikeButton\\0.2.0\\res\\drawable\\thumb_on.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_settings.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_settings.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cash.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\cash.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hamb.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\hamb.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_male.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\ic_male.png"
+    },
+    {
+        "merged": "D:\\7thSem\\2CC\\Excluzo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_down_arow.png",
+        "source": "D:\\7thSem\\2CC\\Excluzo\\app\\src\\main\\res\\drawable\\login_down_arow.png"
+    }
+]
